@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- cdn -->
+    <script
+      src="https://kit.fontawesome.com/70652ddcd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <!-- cdn -->
+    <!-- my css -->
+    <link rel="stylesheet" href="src/css/sass/style.css" />
+    <link rel="stylesheet" href="src/css/sass/res.css" />
+  </head>
+  <body>
+    <!-- top nav -->
+    <div class="d-none d-xl-block d-lg-block">
+      <section class="bg-white top_nav_div">
+        <div class="">
+          <div class="row m-0">
+            <div class="col-3">
+              <div class="top_nav_div_link">
+                <div class="d-flex">
+                  <div>
+                    <a class="top_nav_link" href="#" target="_blanck">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a class="top_nav_link" href="#" target="_blanck">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a class="top_nav_link" href="#" target="_blanck">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a class="top_nav_link" href="#" target="_blanck">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="text-center">
+                <img
+                  class="top_nav_logo"
+                  src="src/img/logo.png"
+                  alt="logo-top"
+                />
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="top_nav_div_scr">
+                <div class="d-flex">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Type keywords here…"
+                    />
+                  </div>
+                  <div>
+                    <button class="btn my_btn2">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top_div"></div>
+        </div>
+      </section>
+    </div>
+    <!-- top nav end -->
+    <!-- nav -->
+    <section>
+      <b class="screen-overlay"></b>
+
+      <div>
+        <div class="d-lg-none shadow mobile_nav_div">
+          <div class="row m-0">
+            <div class="col-8 mobile_logo1_div">
+              <div>
+                <img
+                  class="top_nav_logo"
+                  src="src/img/logo2.png"
+                  alt="logo-top"
+                />
+              </div>
+            </div>
+            <div class="col-4">
+              <button
+                data-trigger="#navbar_main"
+                class="btn float-right mobile_nav_div_btn"
+                type="button"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <nav
+          id="navbar_main"
+          class="mobile-offcanvas navbar navbar-expand-lg nav_div"
+        >
+          <div class="offcanvas-header">
+            <button class="btn btn-danger btn-close float-right">x</button>
+            <h5 class="py-2 text-black">
+              <img
+                class="top_nav_logo3"
+                src="src/img/logo.png"
+                alt="logo-top"
+              />
+            </h5>
+          </div>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="category.html">Business </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="category.html">news </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="category.html">world </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="category.html">Politics </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="category.html">Markets </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_link" href="category.html">Actor </a>
+            </li>
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle nav_link_d my_btn"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                more
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="category.html">Action</a>
+                <a class="dropdown-item" href="category.html">Another action</a>
+                <a class="dropdown-item" href="category.html"
+                  >Something else here</a
+                >
+              </div>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- nav -->
+    <!-- slider -->
+    <section>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div>
+              <div class="slider_img_div">
+                <div
+                  class="slider_img"
+                  style="background-image: url('src/img/slider/1.png')"
+                ></div>
+                <div class="slider_img_div_iner">
+                  <div>
+                    <div class="slider_img_div_iner_cat">
+                      <p class="text-capitalize text-white mb-0">fashion</p>
+                    </div>
+                    <div class="slider_img_h3_div">
+                      <h3 class="text-capitalize text-white mb-0">
+                        how to learn about style <br />
+                        on only 10 day's
+                      </h3>
+                    </div>
+                    <div class="slider_img_date_div">
+                      <p class="text-capitalize mb-0">may 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <div class="slider_img_div">
+                <div
+                  class="slider_img"
+                  style="background-image: url('src/img/slider/2.png')"
+                ></div>
+                <div class="slider_img_div_iner">
+                  <div>
+                    <div class="slider_img_div_iner_cat">
+                      <p class="text-capitalize text-white mb-0">fashion</p>
+                    </div>
+                    <div class="slider_img_h3_div">
+                      <h3 class="text-capitalize text-white mb-0">
+                        how to learn about style <br />
+                        on only 10 day's
+                      </h3>
+                    </div>
+                    <div class="slider_img_date_div">
+                      <p class="text-capitalize mb-0">may 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <div class="slider_img_div">
+                <div
+                  class="slider_img"
+                  style="background-image: url('src/img/slider/3.png')"
+                ></div>
+                <div class="slider_img_div_iner">
+                  <div>
+                    <div class="slider_img_div_iner_cat">
+                      <p class="text-capitalize text-white mb-0">fashion</p>
+                    </div>
+                    <div class="slider_img_h3_div">
+                      <h3 class="text-capitalize text-white mb-0">
+                        Vin Diesel shows the moves in <br />
+                        #Throwback breakdancing video
+                      </h3>
+                    </div>
+                    <div class="slider_img_date_div">
+                      <p class="text-capitalize mb-0">may 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-xl-block d-lg-block d-md-block">
+          <a
+            class="carousel-control-prev slider_btn"
+            href="#demo"
+            data-slide="prev"
+          >
+            <i class="fas fa-angle-left"></i>
+          </a>
+          <a
+            class="carousel-control-next slider_btn"
+            href="#demo"
+            data-slide="next"
+          >
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- slider end -->
+    <!-- newsletter -->
+    <section class="newsletter_bg section_bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="newsletter_text_div">
+              <h5 class="text-capitalize mb-0">sing up for newsletter</h5>
+              <p class="text-capitalize mb-0">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Corporis?
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div>
+              <div class="newsletter_form">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control newsletter_form_input"
+                    placeholder="Email"
+                  />
+                  <button class="btn newsletter_form_btn">
+                    send <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- newsletter end -->
+    <!-- latest post -->
+    <section class="container section_bottom">
+      <div class="title_div">
+        <h3 class="text-capitalize">feature <span>post</span></h3>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/1.jpeg')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">fashion</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>How Much Do You Know About RDJ’s Tony Stark?</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/2.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>Parting Gifts Plus, Grade the Midseason Finale</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/3.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>
+                    This heartbreaking video of Alba Flores aka Nairobi hints
+                    her
+                  </h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest post -->
+    <!-- Trending post -->
+    <section class="container section_bottom">
+      <div class="title_div">
+        <h3 class="text-capitalize">Trending <span>post</span></h3>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-12">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item tab_btn_li">
+                <a
+                  class="nav-link tab_btn active"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  >all</a
+                >
+              </li>
+              <li class="nav-item tab_btn_li">
+                <a
+                  class="nav-link tab_btn"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  >Business</a
+                >
+              </li>
+              <li class="nav-item tab_btn_li">
+                <a
+                  class="nav-link tab_btn"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-contact"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                  >news
+                </a>
+              </li>
+              <li class="nav-item tab_btn_li">
+                <a
+                  class="nav-link tab_btn"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-contact2"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                  >world
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div>
+                      <a href="#" class="trending_post_img_link">
+                        <div>
+                          <div
+                            class="trending_post_img position-relative"
+                            style="background-image: url('src/img/blog/1.jpeg')"
+                          >
+                            <div class="trending_post_img_div_iner">
+                              <div class="trending_post_img_div_iner2">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img_h3_div">
+                                <h3>
+                                  Parting Gifts Plus, Grade the <br />
+                                  Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/1.jpeg');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">fashion</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  How Much Do You Know About RDJ’s Tony Stark?
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/2.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  Parting Gifts Plus, Grade the Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/3.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  This heartbreaking video of Alba Flores aka
+                                  Nairobi hints her
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div>
+                      <a href="#" class="trending_post_img_link">
+                        <div>
+                          <div
+                            class="trending_post_img position-relative"
+                            style="background-image: url('src/img/blog/2.png')"
+                          >
+                            <div class="trending_post_img_div_iner">
+                              <div class="trending_post_img_div_iner2">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img_h3_div">
+                                <h3>
+                                  Parting Gifts Plus, Grade the <br />
+                                  Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/1.jpeg');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">fashion</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  How Much Do You Know About RDJ’s Tony Stark?
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/2.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  Parting Gifts Plus, Grade the Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/3.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  This heartbreaking video of Alba Flores aka
+                                  Nairobi hints her
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div>
+                      <a href="#" class="trending_post_img_link">
+                        <div>
+                          <div
+                            class="trending_post_img position-relative"
+                            style="background-image: url('src/img/blog/3.png')"
+                          >
+                            <div class="trending_post_img_div_iner">
+                              <div class="trending_post_img_div_iner2">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img_h3_div">
+                                <h3>
+                                  Parting Gifts Plus, Grade the <br />
+                                  Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/1.jpeg');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">fashion</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  How Much Do You Know About RDJ’s Tony Stark?
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/2.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  Parting Gifts Plus, Grade the Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/3.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  This heartbreaking video of Alba Flores aka
+                                  Nairobi hints her
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-contact2"
+                role="tabpanel"
+                aria-labelledby="pills-contact-tab"
+              >
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div>
+                      <a href="#" class="trending_post_img_link">
+                        <div>
+                          <div
+                            class="trending_post_img position-relative"
+                            style="background-image: url('src/img/blog/2.png')"
+                          >
+                            <div class="trending_post_img_div_iner">
+                              <div class="trending_post_img_div_iner2">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img_h3_div">
+                                <h3>
+                                  Parting Gifts Plus, Grade the <br />
+                                  Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/1.jpeg');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">fashion</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  How Much Do You Know About RDJ’s Tony Stark?
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/2.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  Parting Gifts Plus, Grade the Midseason Finale
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="trending_post_img_cat_link">
+                          <div class="row">
+                            <div class="col-4">
+                              <div>
+                                <div
+                                  class="trending_post_img2"
+                                  style="
+                                    background-image: url('src/img/blog/3.png');
+                                  "
+                                ></div>
+                              </div>
+                            </div>
+                            <div class="col-8">
+                              <div class="trending_post_img2_cat">
+                                <p class="mb-0">tv show</p>
+                              </div>
+                              <div class="trending_post_img2_cat_text">
+                                <h3 class="mb-0">
+                                  This heartbreaking video of Alba Flores aka
+                                  Nairobi hints her
+                                </h3>
+                                <p class="mb-0">May 10, 2021</p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trending post -->
+    <!-- banner -->
+    <section
+      class="section_bottom banner_img"
+      style="background-image: url('src/img/banner.jpg')"
+    >
+      <div class="banner_img_iner_div">
+        <div class="text-center text-capitalize">
+          <h3>Discovering the soul of the city</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            iusto tempora natus <br />obcaecati animi ipsam!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- banner end -->
+    <!-- Normal  post -->
+    <section class="container section_bottom">
+      <div class="title_div">
+        <h3 class="text-capitalize">Normal <span>post</span></h3>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/1.jpeg')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">fashion</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>How Much Do You Know About RDJ’s Tony Stark?</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/2.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>Parting Gifts Plus, Grade the Midseason Finale</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/3.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>
+                    This heartbreaking video of Alba Flores aka Nairobi hints
+                    her
+                  </h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/1.jpeg')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">fashion</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>How Much Do You Know About RDJ’s Tony Stark?</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/2.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>Parting Gifts Plus, Grade the Midseason Finale</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/3.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>
+                    This heartbreaking video of Alba Flores aka Nairobi hints
+                    her
+                  </h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/1.jpeg')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">fashion</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>How Much Do You Know About RDJ’s Tony Stark?</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/2.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>Parting Gifts Plus, Grade the Midseason Finale</h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+            <div>
+              <a href="#" class="latest_post_img_link">
+                <div>
+                  <div
+                    class="latest_post_img position-relative"
+                    style="background-image: url('src/img/blog/3.png')"
+                  >
+                    <div class="latest_post_img_div_iner">
+                      <p class="mb-0">TV show</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="latest_post_img_h3_div">
+                  <h3>
+                    This heartbreaking video of Alba Flores aka Nairobi hints
+                    her
+                  </h3>
+                  <p class="mb-0">May 10, 2021</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Normal post -->
+    <!-- category -->
+    <section class="section_bottom category_section">
+      <div class="container">
+        <div class="title_div">
+          <h3 class="text-capitalize">all <span>category</span></h3>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-3 my_col_p">
+            <a href="#" class="category_img_link">
+              <div class="category_img_div">
+                <div
+                  class="category_img"
+                  style="background-image: url('src/img/cat.jpeg')"
+                ></div>
+                <div class="category_img_title">
+                  <p class="text-capitalize">fashion</p>
+                </div>
+                <div class="text-capitalize text-center category_img_text">
+                  <p>13 post</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- category end -->
+    <!-- new -->
+    <section class="container section_bottom">
+      <div class="title_div">
+        <h3 class="text-capitalize">recommended <span>post</span></h3>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+          <div>
+            <a href="#" class="trending_post_img_link">
+              <div>
+                <div
+                  class="new_post_img position-relative"
+                  style="background-image: url('src/img/blog/2.png')"
+                >
+                  <div class="trending_post_img_div_iner">
+                    <div class="trending_post_img_div_iner2">
+                      <p class="mb-0">tv show</p>
+                    </div>
+                    <div class="trending_post_img_h3_div">
+                      <h3>
+                        Parting Gifts Plus, Grade the <br />
+                        Midseason Finale
+                      </h3>
+                      <p class="mb-0">May 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+          <div>
+            <a href="#" class="trending_post_img_link">
+              <div>
+                <div
+                  class="new_post_img position-relative"
+                  style="background-image: url('src/img/blog/2.png')"
+                >
+                  <div class="trending_post_img_div_iner">
+                    <div class="trending_post_img_div_iner2">
+                      <p class="mb-0">tv show</p>
+                    </div>
+                    <div class="trending_post_img_h3_div">
+                      <h3>
+                        Parting Gifts Plus, Grade the <br />
+                        Midseason Finale
+                      </h3>
+                      <p class="mb-0">May 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+          <div>
+            <a href="#" class="trending_post_img_link">
+              <div>
+                <div
+                  class="new_post_img position-relative"
+                  style="background-image: url('src/img/blog/2.png')"
+                >
+                  <div class="trending_post_img_div_iner">
+                    <div class="trending_post_img_div_iner2">
+                      <p class="mb-0">tv show</p>
+                    </div>
+                    <div class="trending_post_img_h3_div">
+                      <h3>
+                        Parting Gifts Plus, Grade the <br />
+                        Midseason Finale
+                      </h3>
+                      <p class="mb-0">May 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+          <div>
+            <a href="#" class="trending_post_img_link">
+              <div>
+                <div
+                  class="new_post_img position-relative"
+                  style="background-image: url('src/img/blog/2.png')"
+                >
+                  <div class="trending_post_img_div_iner">
+                    <div class="trending_post_img_div_iner2">
+                      <p class="mb-0">tv show</p>
+                    </div>
+                    <div class="trending_post_img_h3_div">
+                      <h3>
+                        Parting Gifts Plus, Grade the <br />
+                        Midseason Finale
+                      </h3>
+                      <p class="mb-0">May 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+          <div>
+            <a href="#" class="trending_post_img_link">
+              <div>
+                <div
+                  class="new_post_img position-relative"
+                  style="background-image: url('src/img/blog/2.png')"
+                >
+                  <div class="trending_post_img_div_iner">
+                    <div class="trending_post_img_div_iner2">
+                      <p class="mb-0">tv show</p>
+                    </div>
+                    <div class="trending_post_img_h3_div">
+                      <h3>
+                        Parting Gifts Plus, Grade the <br />
+                        Midseason Finale
+                      </h3>
+                      <p class="mb-0">May 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+          <div>
+            <a href="#" class="trending_post_img_link">
+              <div>
+                <div
+                  class="new_post_img position-relative"
+                  style="background-image: url('src/img/blog/2.png')"
+                >
+                  <div class="trending_post_img_div_iner">
+                    <div class="trending_post_img_div_iner2">
+                      <p class="mb-0">tv show</p>
+                    </div>
+                    <div class="trending_post_img_h3_div">
+                      <h3>
+                        Parting Gifts Plus, Grade the <br />
+                        Midseason Finale
+                      </h3>
+                      <p class="mb-0">May 10, 2021</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- new end -->
+    <!-- Footer -->
+    <section class="pt-4">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/blog/1.jpeg')"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/blog/3.png')"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/slider/3.png')"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/slider/1.png')"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/slider/2.png')"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/footer/1.jpeg')"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="footer_img"
+            style="background-image: url('src/img/footer/2.jpeg')"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer_bg pt-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">about</h6>
+            <p class="footer_link2">
+              Here you can use rows and columns to organize your footer content.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <p class="footer_link2 mb-1">New York, NY 10012, US</p>
+            <p class="mb-1">
+              <a href="mailto:info@gmail.com" class="footer_link"
+                >info@gmail.com</a
+              >
+            </p>
+            <p>
+              <a href="tel:+4733378901" class="footer_link">+ 01 234 567 88</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">latest</h6>
+            <div class="footer_latest_link_div">
+              <div class="footer_latest_link_cat">
+                <p>fashion</p>
+              </div>
+              <div class="footer_latest_link">
+                <a href="#">
+                  This Heartbreaking Video Of Alba Flores Aka Nairobi Hints Her
+                </a>
+                <p class="mb-0">May 10, 2021</p>
+              </div>
+            </div>
+            <div class="footer_latest_link_div">
+              <div class="footer_latest_link_cat">
+                <p>fashion</p>
+              </div>
+              <div class="footer_latest_link">
+                <a href="#">
+                  This Heartbreaking Video Of Alba Flores Aka Nairobi Hints Her
+                </a>
+                <p class="mb-0">May 10, 2021</p>
+              </div>
+            </div>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Category</h6>
+            <p>
+              <a href="category.html" class="footer_link">Business </a>
+            </p>
+            <p>
+              <a href="category.html" class="footer_link">news </a>
+            </p>
+            <p>
+              <a href="category.html" class="footer_link">world </a>
+            </p>
+            <p>
+              <a href="category.html" class="footer_link">Politics </a>
+            </p>
+            <p>
+              <a href="category.html" class="footer_link">Markets </a>
+            </p>
+            <p>
+              <a href="category.html" class="footer_link">Actor </a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">subscribe</h6>
+            <div class="footer_subscribe_div">
+              <p>Get a bi-weekly digest newsletter</p>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+              </div>
+
+              <button class="btn">subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg2">
+        <hr />
+        <div class="row m-0">
+          <div
+            class="
+              col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12
+              order-md-1 order-2
+            "
+          >
+            <p class="text-center text-md-left footer_link2 top_nav_div_link">
+              © 2021 Copyright:
+              <a href="#" class="footer_link">
+                <strong>Copyright.com</strong>
+              </a>
+            </p>
+          </div>
+          <div
+            class="
+              col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12
+              order-md-2 order-1
+            "
+          >
+            <ul class="list-unstyled list-inline top_nav_div_scr">
+              <li class="list-inline-item">
+                <a
+                  class="
+                    btn-floating btn-sm
+                    rgba-white-slight
+                    mx-1
+                    footer_socal_link
+                  "
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="
+                    btn-floating btn-sm
+                    rgba-white-slight
+                    mx-1
+                    footer_socal_link
+                  "
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="
+                    btn-floating btn-sm
+                    rgba-white-slight
+                    mx-1
+                    footer_socal_link
+                  "
+                >
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="
+                    btn-floating btn-sm
+                    rgba-white-slight
+                    mx-1
+                    footer_socal_link
+                  "
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+    <!-- js -->
+    <script src="src/js/my.js"></script>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+  </body>
+</html>
